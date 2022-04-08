@@ -9,11 +9,14 @@
     <title><?= getName(); ?></title>
 </head>
 <body>
-<ul class="nav">
+<ul class="nav bg-dark">
   <li class="nav-item">
     <a class="nav-link" href="/">Curriculum Vitae</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/portfolio.php">Portfolio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/contact.php">Contact</a>
   </li>
 </ul>

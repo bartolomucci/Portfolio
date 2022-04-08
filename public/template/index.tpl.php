@@ -1,7 +1,7 @@
 <?php include 'partials/_top.php'; ?>
 
 <div class="container">
-
+<h1>Curriculum Vitae</h1>
     <img src="<?= $myCV['imageProfile'] ?>" alt="profil picture of M. <?= getName() ?>" /></span>
     <h1><?= getName() ?></h1>
     <p><?= $myCV['readme'] ?></p>
