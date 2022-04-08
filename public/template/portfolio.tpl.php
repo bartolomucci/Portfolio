@@ -1,7 +1,7 @@
 <?php include 'partials/_top.php'; ?>
 
 <div class="container">
-    <h1>Portfolio</h1>
+    <h1 class="text-center">Portfolio</h1>
 <?php foreach ($myPF['project'] as $project) : ?>
     <h2><?= $project['projectName'] ?></h2>
     <p><?= $project['projectDescription'] ?></p>

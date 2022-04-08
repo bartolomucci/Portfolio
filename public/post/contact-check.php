@@ -15,7 +15,6 @@ if(isset($_POST['submit']))
     }
     else
     {
-            echo '<h1>There was an error with the spam verification</h1><br>';
-            echo '<a href="/contact.php"> Please, try again </a>';
+        header('Location: /sorry.php');
     }
 }

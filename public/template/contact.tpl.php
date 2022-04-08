@@ -1,6 +1,6 @@
 <?php include 'partials/_top.php'; ?>
 <div class="container">
-<h1>Contact</h1>
+<h1 class="text-center">Contact</h1>
 
 <form method="POST" action="post/contact-check.php">
   <div class="form-group">
@@ -24,7 +24,7 @@
     </select>
   </div>
   <div class="form-group">
-    <input type="submit" name="submit" value="Contact">
+    <input class="btn btn-primary" type="submit" name="submit" value="Contact">
   </div>
 
 </form>

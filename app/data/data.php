@@ -60,6 +60,7 @@ $myCV = [
             'learned' => 'Web Developper Front-End & Back-End',
             'place' => 'France',
             'school' => 'Metz Numeric School',
+            'mention' => '',
             'description' =>
             '<ul>
             <li> OBJECT-ORIENTED PROGRAMMING BASICS
@@ -82,11 +83,12 @@ $myCV = [
         </ul>'
         ],
         [
-            'dateFrom' => '14 September 2013',
+            'dateFrom' => '16 September 2013',
             'dateEnd' => '10 July 2015',
-            'learned' => 'Male Hairdresser',
+            'learned' => 'Professional Hairdressing Certificate of Aptitude',
             'place' => 'France',
             'school' => 'Institut Superieur de Formation Esthetique et Coiffure',
+            'mention' => '',
             'description' =>
             '<ul>
             <li>Male Specialisation</li>
@@ -94,6 +96,22 @@ $myCV = [
             <li>Colorations</li>
             <li>Barber Master</li>
             <li>Hair Arts</li>
+        </ul>'
+        ],
+        [
+            'dateFrom' => '01 September 2009',
+            'dateEnd' => '12 July 2013',
+            'learned' => 'National College Degree',
+            'place' => 'France',
+            'school' => 'Collège Adalbert',
+            'mention' => 'with very good special mention (16/20+)',
+            'description' =>
+            '<ul>
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>French,English and German</li>
+            <li>Life and Earth Sciences</li>
+            <li>Gym</li>
         </ul>'
         ],
     ]
