@@ -14,7 +14,7 @@ $myCV = [
     After graduation I would like to pursue a Full Stack Developer Bachelor (BAC+3)',
     'instagram' => 'https://www.instagram.com/giammarin0',
     'twitter' => 'https://www.twitter.com/giammarin0',
-    'youtube' => 'https://www.youtube.com/crew2K8',    
+    'youtube' => 'https://www.youtube.com/crew2K8',
     'professionnal' => [
         [
             'dateFrom' => '22 November 2021',
@@ -22,7 +22,7 @@ $myCV = [
             'job' => 'Web Developer Internship',
             'place' => 'Luxembourg',
             'society' => 'WILD STUDIO',
-            'description' => 
+            'description' =>
             '<ul>
                 <li>Creation of static pages from a visual model with HTML/sCSS</li>
                 <li>Knowledge development regarding visual aspects</li>
@@ -40,7 +40,7 @@ $myCV = [
             'job' => 'Sales Representative',
             'place' => 'Luxembourg',
             'society' => 'MediaMarkt Saturn',
-            'description' => 
+            'description' =>
             '<ul>
                 <li>B2C & B2B Sales</li>
                 <li>Sales Advices</li>
@@ -52,7 +52,7 @@ $myCV = [
                 <li>Digital Marketing</li>
             </ul>'
         ],
-        ],
+    ],
     'schools' => [
         [
             'dateFrom' => '20 December 2021',
@@ -60,7 +60,7 @@ $myCV = [
             'learned' => 'Web Developper Front-End & Back-End',
             'place' => 'France',
             'school' => 'Metz Numeric School',
-            'description' =>             
+            'description' =>
             '<ul>
             <li> OBJECT-ORIENTED PROGRAMMING BASICS
             <br>
@@ -87,7 +87,7 @@ $myCV = [
             'learned' => 'Male Hairdresser',
             'place' => 'France',
             'school' => 'Institut Superieur de Formation Esthetique et Coiffure',
-            'description' =>             
+            'description' =>
             '<ul>
             <li>Male Specialisation</li>
             <li>Advanced Hair Biology</li>
@@ -96,5 +96,80 @@ $myCV = [
             <li>Hair Arts</li>
         </ul>'
         ],
-]
-        ];
+    ]
+];
+
+$myPF = [
+    'project' => [
+        [
+            'projectName' => 'EmpiredIn',
+            'projectTime' => (4 * 4) * 2 . ' hours',
+            'technologies' => 'HTML and SASS',
+            'framework' => 'without any frameworks',
+            'projectDescription' => 'I carried out this project because being an active user of LinkedIn and needing to create a static page in order to validate my skills, I decided to adapt EmpiredIn as if we were in the universe created beforehand by Georges Lucas',
+            'projectScreen' => 'https://i.ibb.co/dtpfTmL/Empired-In.png',
+            'creationDate' => 'December 2021',
+            'projectEmpty' => 'Unfortunately, this project isn\'t available on Internet'
+        ],
+        [
+            'projectName' => 'Counter-Strike: Legends',
+            'projectTime' => (4 * 4) * 7 . ' hours',
+            'technologies' => 'HTML and CSS',
+            'framework' => 'without any frameworks',
+            'projectDescription' => 'I did this project because I was asked to create a static website to demonstrate my HTML/CSS skills at the end of my four month of web refresher.',
+            'projectScreen' => 'https://i.ibb.co/9bffJKY/CS-Legends.jpg',
+            'creationDate' => 'November 2021',
+            'projectEmpty' => 'Unfortunately, this project isn\'t available on Internet'
+        ],
+        [
+            'projectName' => 'The Unescaped Hangman',
+            'projectTime' => (6 * 6) * 6 . ' hours',
+            'technologies' => 'HTML, CSS, PHP, JavaScript and Python',
+            'framework' => 'without any frameworks',
+            'projectDescription' => 'This project was carried out in collaboration with <strong>TIREPIED Romain, KUHL Thomas, SCARON Félix and VILLENEUVE Alexis</strong>. This is the famous hangman game, adapted as a quick horror-game',
+            'projectScreen' => 'https://i.ibb.co/wCMY8gw/Hangman.jpg',
+            'creationDate' => 'December 2021',
+            'projectLink' => 'https://hangman.tirepied.re/',
+        ],
+        [
+            'projectName' => 'The Sudoku Solver',
+            'projectTime' => (2 * 3.5) * 3.5 . ' hours',
+            'technologies' => 'HTML,CSS and JavaScript',
+            'framework' => 'without any frameworks',
+            'projectDescription' => 'This project was made to meet the expectations of one of my teachers',
+            'projectScreen' => 'https://i.ibb.co/KWQnM5X/Le-r-solveur-de-sudoku.png',
+            'creationDate' => 'February 2022',
+            'projectEmpty' => 'Unfortunately, this project isn\'t available on Internet',
+        ],
+        [
+            'projectName' => 'Music Native Station (MNS)',
+            'projectTime' => (0.5 * 2) * 2 . ' hours',
+            'technologies' => 'HTML and CSS',
+            'framework' => 'without any frameworks',
+            'projectDescription' => 'This project was carried out quickly in order to experiment with APIs (here, that of spotify)',
+            'projectScreen' => 'https://i.ibb.co/CtSfHbB/image.png',
+            'creationDate' => 'January 2022',
+            'projectEmpty' => 'Unfortunately, this project isn\'t available on Internet'
+        ],
+        [
+            'projectName' => 'Name Generator',
+            'projectTime' => 2.75 * 2 . ' hours',
+            'technologies' => 'HTML, PHP and SQL',
+            'framework' => 'with bootstrap',
+            'projectDescription' => 'I made this project quickly to experiment SQL and practice my skill',
+            'projectScreen' => 'https://i.ibb.co/Ky7SNd5/namegenerator.png',
+            'creationDate' => 'March 2022',
+            'projectEmpty' => 'Unfortunately, this project isn\'t available on Internet'
+        ],
+        [
+            'projectName' => 'MCQ Creator',
+            'projectTime' => (8 * 3.5) * 2 . ' hours',
+            'technologies' => 'HTML, PHP and SQL',
+            'framework' => 'with bootstrap',
+            'projectDescription' => 'I had to make this project during our school times and my teacher pretty liked it',
+            'projectScreen' => 'https://i.ibb.co/CQpJ6xP/qcmgenerator.png',
+            'creationDate' => 'March 2022',
+            'projectEmpty' => 'Unfortunately, this project isn\'t available on Internet'
+        ],
+    ]
+];

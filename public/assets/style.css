@@ -1,5 +1,9 @@
-img
+body
 {
-    width: 150px;
-    float: left;
+    background-color: #ffffff;
+    background-image: linear-gradient(302deg, #ffffff 18%, #c1c1c1 100%);
+    
 }
+
+
+
